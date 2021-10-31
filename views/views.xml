@@ -22,10 +22,10 @@
             </div>
             <sheet>
 
-              <button class="oe_stat_button" type="object" name="abrir_vencimientos" icon="fa-usd">
+              <!--button class="oe_stat_button" type="object" name="abrir_vencimientos" icon="fa-usd">
                   <field string="Vencimientos" name="sale_order_count"
                          widget="statinfo" />
-              </button>
+              </button-->
 
               <div class="oe_button_box" name="button_box"/>
 

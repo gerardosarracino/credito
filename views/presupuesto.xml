@@ -69,6 +69,7 @@
                             <field name="partner_id" widget="res_partner_many2one" context="{'res_partner_search_mode': 'customer', 'show_address': 1, 'show_vat': True}" options='{"always_reload": True}'/>
 
                             <!-- CAMPOS AGREGADOS -->
+                            <!--field name="amount_total"/-->
                             <field name="credito_limite" readonly="1" string="Credito Limite"/>
                             <field name="credito_disponible" string="Credito Disponible"/>
                             <field name="estado_credito" string="Estado del Credito"/>
@@ -77,7 +78,6 @@
                                    decoration-success="credito_disponible &gt; 0"
                                    decoration-warning="vencida == True"
                                    decoration-danger="estado_credito == 'suspendido'"/>
-
 
 
 
